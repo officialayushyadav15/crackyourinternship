@@ -2,6 +2,8 @@
 
 Given an array `nums` with `n` objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue. We will use the integers `0`, `1`, and `2` to represent the colors red, white, and blue, respectively. You must solve this problem without using the library's sort function.
 
+For more details on the problem, visit the [LeetCode Problem Link](https://leetcode.com/problems/sort-colors/description/).
+
 ## Description
 
 To solve this problem, we can use a three-pointer approach, often referred to as the Dutch National Flag problem. 
