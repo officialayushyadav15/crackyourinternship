@@ -29,13 +29,6 @@ The goal is to determine the maximum profit from buying and selling a stock on d
 ### Code
 
 ```cpp
-class Solution {
-public:
-    int maxProfit(vector<int>& prices) {
-        int minPrice = INT_MAX;
-        int maxProfit = 0;
-        int n = prices.size();
-
         for (int i = 0; i < n; i++) {
             if (prices[i] < minPrice) {
                 minPrice = prices[i]; 
@@ -44,10 +37,6 @@ public:
                 maxProfit = prices[i] - minPrice; 
             }
         }
-
-        return maxProfit;
-    }
-};
 ```
 
 - **Time Complexity:** O(n) – Each element in the array is processed once.
