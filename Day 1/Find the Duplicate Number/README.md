@@ -2,6 +2,8 @@
 
 Given an array of integers `nums` containing `n + 1` integers where each integer is in the range `[1, n]` inclusive, there is only one repeated number in `nums`. Your task is to return this repeated number. You must solve the problem without modifying the array `nums` and using only constant extra space.
 
+For more details on the problem, visit the [LeetCode Problem Link](https://leetcode.com/problems/find-the-duplicate-number/description/).
+
 ## Approaches
 
 ### First Approach: Sorting
