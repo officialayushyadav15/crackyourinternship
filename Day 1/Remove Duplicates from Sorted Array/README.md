@@ -1,3 +1,7 @@
+Certainly! Here’s the updated README section with the direct link to the problem for users to visit and solve the question:
+
+---
+
 ## Problem
 
 Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
@@ -6,6 +10,8 @@ Consider the number of unique elements of `nums` to be `k`. To get accepted, you
 
 - Modify the array `nums` such that the first `k` elements contain the unique elements in the order they were present in `nums` initially. The remaining elements of `nums` are not important, as well as the size of `nums`.
 - Return `k`.
+
+For more details on the problem, visit the [LeetCode Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/).
 
 ## Description
 
@@ -40,3 +46,7 @@ To solve this problem, you can use a single loop to iterate through the array. T
 
 - The array `nums` is modified in place to contain the unique elements at the beginning.
 - The final number of unique elements is given by `k`.
+
+---
+
+This formatting includes a clear explanation and a direct link to the problem description on LeetCode for easy access.
