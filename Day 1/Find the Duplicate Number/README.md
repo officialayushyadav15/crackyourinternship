@@ -6,9 +6,7 @@ You must solve the problem without modifying the array nums and uses only consta
 
 *Explanation*
   
-First approach : In order to solve this problem we used simple concept i.e. first I sorted array and then i initiated a for loop 
-from starting till the end of the array while iterating i just saw wheather the next element and the current element i just returned 
-the number as we were supposed to print the number which occurs in the problem more than once in an array.
+First approach : In order to solve this problem we used simple concept i.e. first I sorted array and then i initiated a for loop from starting till the end of the array while iterating i just saw wheather the next element and the current element i just returned the number as we were supposed to print the number which occurs in the problem more than once in an array.
 
 The code loop is :
   for(int i=0;i<nums.size();i++){
@@ -20,9 +18,7 @@ time complexity : O(n+nlogn)
 space complexity : O(1)
 
 
-Second approach: In order to solve using this approach we craeted another vector v2, now we iterate through the vector given in the question 
-and increase the count of position in vector v2 as the number appeared in the given vector (for eg: element i is 3 then in  position v2 we increase 
-count at index 3 ) after this we iterate through vector v2 and return the number with count more than 1.
+Second approach: In order to solve using this approach we craeted another vector v2, now we iterate through the vector given in the question and increase the count of position in vector v2 as the number appeared in the given vector (for eg: element i is 3 then in  position v2 we increase count at index 3 ) after this we iterate through vector v2 and return the number with count more than 1.
 
 initialization : vector<int> V2(n, 0);
 
