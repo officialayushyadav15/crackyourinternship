@@ -25,6 +25,7 @@ initialization : vector<int> V2(n, 0);
 The code loop is : 
 
   for (int i=0;i<nums.size();i++){
+  
     v2[nums[i]]++;
   }
   for (int i=0;i<v2.size();i++){
