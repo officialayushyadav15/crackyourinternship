@@ -1,5 +1,6 @@
 *Problem*
-Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the 
+colors in the order red, white, and blue.
 We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
 You must solve this problem without using the library's sort function.
 
@@ -24,8 +25,14 @@ while (mid <= high) {
                 high--;
             }
         }
-In above loop basically i used three pointers named high low and mid now as we go into loop the mid position iterate through the loop, in starting we keep mid and low at first index i.e.0 and the high at last of given vector. Now we see each element as we iterate through the array basically we seek the loop until the mid reaches the high or crosses it.
-Now we see condition if element at current mid is 0 then we swap that element with index low and add 1 to index low and mark the next index as low and update mid to next element , if current mid element is one then we keep it as it is and iterate forward to next element and update mid by one , if element at current mid index is 2 then we swap that number with high and decrement high by 1 and recheck with new mid element and perform necessary action.
+In above loop basically i used three pointers named high low and mid now as we go into loop the mid position iterate through the loop,
+in starting we keep mid and low at first index i.e.0 and the high at last of given vector. Now we see each element as we iterate through 
+the array basically we seek the loop until the mid reaches the high or crosses it.
+
+Now we see condition if element at current mid is 0 then we swap that element with index low and add 1 to index low and mark the next index
+as low and update mid to next element , if current mid element is one then we keep it as it is and iterate forward to next element and update 
+mid by one , if element at current mid index is 2 then we swap that number with high and decrement high by 1 and recheck with new mid element 
+and perform necessary action.
 
 time complexity : O(n)
 space complexity : O(1)
