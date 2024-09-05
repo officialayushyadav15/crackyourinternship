@@ -1,3 +1,4 @@
+First Approach : 
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -9,5 +10,23 @@ public:
             }
         }
         return -1;
+    }
+};
+
+Second Approach : 
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> V2(n, 0);
+        for (int i = 0; i < nums.size(); i++) {
+            V2[nums[i]]++; 
+        }
+        for (int i = 0; i < V2.size(); i++) {
+            if (V2[i] > 1) {
+                return i; 
+            }
+        }
+        return -1; 
     }
 };
