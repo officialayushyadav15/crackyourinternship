@@ -23,13 +23,22 @@ Second approach: In order to solve using this approach we craeted another vector
 initialization : vector<int> V2(n, 0);
 
 The code loop is : 
+
   for (int i=0;i<nums.size();i++){
+  
     v2[nums[i]]++;
+    
   }
+  
   for (int i=0;i<v2.size();i++){
+  
     if (v2[i]>1){
+    
       return i;
+      
     }
+    
   }
+  
 time complexity : O(2n)
 space complexity : O(n)
