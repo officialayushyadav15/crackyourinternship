@@ -39,5 +39,5 @@ The goal is to determine the maximum profit from buying and selling a stock on d
         }
 ```
 
-- **Time Complexity:** O(n) – Each element in the array is processed once.
-- **Space Complexity:** O(1) – The solution uses constant extra space.
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
