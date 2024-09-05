@@ -54,3 +54,4 @@ Given an array of integers `nums` containing `n + 1` integers where each integer
 
    - **Time Complexity:** O(n) for counting + O(n) for finding the duplicate.
    - **Space Complexity:** O(n) due to the extra vector used for counting.
+ 
