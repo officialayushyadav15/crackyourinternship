@@ -1,7 +1,3 @@
-Certainly! Here’s a clear explanation of the provided C++ code, formatted for inclusion in a README file on GitHub, with a direct link to the problem:
-
----
-
 ## Problem
 
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -56,7 +52,3 @@ public:
 
 - **Time Complexity:** O(n) – Each element in the array is processed once.
 - **Space Complexity:** O(1) – The solution uses constant extra space.
-
----
-
-This explanation provides a clear understanding of the approach and logic behind the code, with a direct link for further reading and problem-solving.
