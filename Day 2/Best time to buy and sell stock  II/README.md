@@ -19,22 +19,13 @@ For more details on the problem, visit the [LeetCode Problem Link](https://leetc
    - Add up all the positive differences between consecutive days. This is equivalent to summing up all upward slopes in the price curve, which represents buying on the dips and selling on the peaks.
 
    ```cpp
-   class Solution {
-   public:
-       int maxProfit(vector<int>& prices) {
-           int n = prices.size();
-           if (n == 0) return 0;
-
-           int totalProfit = 0;
+  
            for (int i = 1; i < n; i++) {
                if (prices[i] > prices[i - 1]) {
                    totalProfit += prices[i] - prices[i - 1];
                }
            }
 
-           return totalProfit;
-       }
-   };
    ```
 
    - **Time Complexity:** O(N)
