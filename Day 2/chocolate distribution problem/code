@@ -1,0 +1,15 @@
+class Solution{
+    public:
+    long long findMinDiff(vector<long long> a, long long n, long long m){
+    long long d;
+    sort(a.begin(),a.end());
+    d=a[m-1]-a[0];
+    for(int i=m;i<n;i++){
+        if (d>(a[i]-a[i-m+1])){
+            d=a[i]-a[i-m+1];
+        }
+    }
+    return d;
+    
+    }   
+};
