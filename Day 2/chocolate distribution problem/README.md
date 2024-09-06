@@ -35,6 +35,6 @@ For more details on the problem, visit the [GeeksforGeeks Problem Link](https://
    }
    ```
 
-   - **Time Complexity:** O(N log N) for sorting + O(N) for finding the minimum difference. Overall, O(N log N).
-   - **Space Complexity:** O(1) additional space for tracking the minimum difference, not counting the space required for sorting.
+   - **Time Complexity:** O(N log N) + O(N)
+   - **Space Complexity:** O(1)
 
